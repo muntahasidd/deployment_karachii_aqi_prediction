@@ -1,4 +1,4 @@
-# ========================================
+we# ========================================
 # 🌤️ Karachi AQI Forecast Streamlit App
 # ========================================
 
@@ -13,7 +13,7 @@ import os
 
 # ================= CONFIG =================
 
-API_KEY = "6094f98aa9ad646bfcbdd49788573e5b"
+API_KEY = ""
 LAT, LON = 24.8607, 67.0011
 CSV_PATH = "karachi_weather_5h.csv"
 MODEL_PATH = "rf_model.pkl"
@@ -134,5 +134,6 @@ if st.button("📡 Fetch Latest Data & Predict"):
     st.dataframe(forecast_df_display)
 
 st.markdown("---")
+
 
 
